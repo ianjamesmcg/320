@@ -1,0 +1,26 @@
+black: Debian 8.7 amd64 
+motd: 09/01/2012
+Processor: Common KVM processor   Memory: 19.65 GB 
+============================+===================+=========================
+
+ |  This is a restricted access computer for exclusive use by faculty, 
+ |  staff, and students in the Computer Science and Engineering Department 
+ |  at Michigan State University.  Unauthorized use is prohibited.
+ 
+ |  Usage groundrules, guidelines, and extensive system help can be found at
+ |  http://www.cse.msu.edu/facility/
+  
+ |  To report problems or find information you could not find using
+ |  the web address above, please use http://help.cse.msu.edu, or send 
+ |  email to manager@cse.msu.edu.
+ 
+ |  Please regularly change your password using the 'passwd' command on arctic.
+
+============================+===================+=========================
+ 
+This machine enforces an idle timeout of 1 hour for remote logins, and will
+restrict multiple logins from the same user during times of heavy load.
+Do not run big jobs without 'nice'ing them, or they will be killed or
+stopped without warning.    
+============================+===================+=========================
+
